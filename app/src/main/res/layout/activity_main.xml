@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrator.myapplication.widget.MyLineLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zjl="http://schemas.android.com/apk/res-outo"
+    android:id="@+id/contentPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/text"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="haha"
+        android:background="@color/colorPrimary"
+        />
+
+    <com.example.administrator.myapplication.widget.EasyView
+        android:id="@+id/myView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        zjl:unMeasure="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loop_btn"
+        android:text="looper"/>
+    <TextView
+        android:id="@+id/textWithLooper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0000"/>
+
+</com.example.administrator.myapplication.widget.MyLineLayout>

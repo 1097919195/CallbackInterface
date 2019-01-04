@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
         //第二种
         Other other = new Other();
+        //其实button回调在View的ontouch事件中调用的，并非在构造时实现的，这里只是模拟一下样子———没有启动控制器对象运行
         other.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick() {
